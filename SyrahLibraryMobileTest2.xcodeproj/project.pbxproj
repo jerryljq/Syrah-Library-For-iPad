@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C402E6CB1AEBF37300587D36 /* ShowBorrowRecordForAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C402E6CA1AEBF37300587D36 /* ShowBorrowRecordForAdminViewController.m */; };
+		C402E6CE1AEBF9E300587D36 /* RecordInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C402E6CD1AEBF9E300587D36 /* RecordInfoViewController.m */; };
+		C41EA7BE1AEA6A5E00238242 /* ShowReaderForAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41EA7BD1AEA6A5E00238242 /* ShowReaderForAdminViewController.m */; };
+		C41EA7C11AEA74D800238242 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41EA7C01AEA74D800238242 /* UserInfoViewController.m */; };
+		C41EA7C41AEAB9C200238242 /* ShowBookForReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41EA7C31AEAB9C200238242 /* ShowBookForReaderViewController.m */; };
+		C41EA7C71AEAB9F100238242 /* BookBorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41EA7C61AEAB9F100238242 /* BookBorrowViewController.m */; };
+		C41EA7CA1AEABAB700238242 /* ShowRecordForReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41EA7C91AEABAB700238242 /* ShowRecordForReaderViewController.m */; };
+		C41EA7CD1AEABADA00238242 /* RecordUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41EA7CC1AEABADA00238242 /* RecordUpdateViewController.m */; };
+		C42A3C081AE9172600DA652B /* ShowBookForAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A3C071AE9172600DA652B /* ShowBookForAdminViewController.m */; };
+		C42A3C0E1AE9E11700DA652B /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A3C0D1AE9E11700DA652B /* BookInfoViewController.m */; };
 		C4E7864B1AE24D32009C98A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E7864A1AE24D32009C98A2 /* main.m */; };
 		C4E7864E1AE24D32009C98A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E7864D1AE24D32009C98A2 /* AppDelegate.m */; };
 		C4E786511AE24D32009C98A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E786501AE24D32009C98A2 /* ViewController.m */; };
@@ -14,6 +24,16 @@
 		C4E786561AE24D32009C98A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E786551AE24D32009C98A2 /* Images.xcassets */; };
 		C4E786591AE24D32009C98A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E786571AE24D32009C98A2 /* LaunchScreen.xib */; };
 		C4E786651AE24D32009C98A2 /* SyrahLibraryMobileTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E786641AE24D32009C98A2 /* SyrahLibraryMobileTest2Tests.m */; };
+		C4E786701AE2824D009C98A2 /* regViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E7866F1AE2824D009C98A2 /* regViewControl.m */; };
+		C4E786731AE2A369009C98A2 /* SRDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E786721AE2A369009C98A2 /* SRDatabase.m */; };
+		C4E7867C1AE2AE98009C98A2 /* SyrahBook.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E786751AE2AE98009C98A2 /* SyrahBook.m */; };
+		C4E7867D1AE2AE98009C98A2 /* SyrahBorrowCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E786771AE2AE98009C98A2 /* SyrahBorrowCard.m */; };
+		C4E7867E1AE2AE98009C98A2 /* SyrahBorrowRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E786791AE2AE98009C98A2 /* SyrahBorrowRecord.m */; };
+		C4E7867F1AE2AE98009C98A2 /* SyrahManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E7867B1AE2AE98009C98A2 /* SyrahManagement.m */; };
+		C4E786821AE2B2A1009C98A2 /* InsertBookControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E786811AE2B2A1009C98A2 /* InsertBookControllerViewController.m */; };
+		C4E786841AE2D0E1009C98A2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E786831AE2D0E1009C98A2 /* libsqlite3.dylib */; };
+		C4FAB4631AEF0C4500B6460B /* AdminInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FAB4621AEF0C4500B6460B /* AdminInfoViewController.m */; };
+		C4FAB4661AEF16FC00B6460B /* readerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FAB4651AEF16FC00B6460B /* readerInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +47,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C402E6C91AEBF37300587D36 /* ShowBorrowRecordForAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowBorrowRecordForAdminViewController.h; path = ../ShowBorrowRecordForAdminViewController.h; sourceTree = "<group>"; };
+		C402E6CA1AEBF37300587D36 /* ShowBorrowRecordForAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowBorrowRecordForAdminViewController.m; path = ../ShowBorrowRecordForAdminViewController.m; sourceTree = "<group>"; };
+		C402E6CC1AEBF9E300587D36 /* RecordInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordInfoViewController.h; sourceTree = "<group>"; };
+		C402E6CD1AEBF9E300587D36 /* RecordInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordInfoViewController.m; sourceTree = "<group>"; };
+		C41EA7BC1AEA6A5E00238242 /* ShowReaderForAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowReaderForAdminViewController.h; sourceTree = "<group>"; };
+		C41EA7BD1AEA6A5E00238242 /* ShowReaderForAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowReaderForAdminViewController.m; sourceTree = "<group>"; };
+		C41EA7BF1AEA74D800238242 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		C41EA7C01AEA74D800238242 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		C41EA7C21AEAB9C200238242 /* ShowBookForReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowBookForReaderViewController.h; sourceTree = "<group>"; };
+		C41EA7C31AEAB9C200238242 /* ShowBookForReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowBookForReaderViewController.m; sourceTree = "<group>"; };
+		C41EA7C51AEAB9F100238242 /* BookBorrowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBorrowViewController.h; sourceTree = "<group>"; };
+		C41EA7C61AEAB9F100238242 /* BookBorrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBorrowViewController.m; sourceTree = "<group>"; };
+		C41EA7C81AEABAB700238242 /* ShowRecordForReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowRecordForReaderViewController.h; sourceTree = "<group>"; };
+		C41EA7C91AEABAB700238242 /* ShowRecordForReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowRecordForReaderViewController.m; sourceTree = "<group>"; };
+		C41EA7CB1AEABADA00238242 /* RecordUpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordUpdateViewController.h; sourceTree = "<group>"; };
+		C41EA7CC1AEABADA00238242 /* RecordUpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordUpdateViewController.m; sourceTree = "<group>"; };
+		C42A3C061AE9172600DA652B /* ShowBookForAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowBookForAdminViewController.h; sourceTree = "<group>"; };
+		C42A3C071AE9172600DA652B /* ShowBookForAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowBookForAdminViewController.m; sourceTree = "<group>"; };
+		C42A3C0C1AE9E11700DA652B /* BookInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfoViewController.h; sourceTree = "<group>"; };
+		C42A3C0D1AE9E11700DA652B /* BookInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfoViewController.m; sourceTree = "<group>"; };
 		C4E786451AE24D32009C98A2 /* SyrahLibraryMobileTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyrahLibraryMobileTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E786491AE24D32009C98A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E7864A1AE24D32009C98A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +80,25 @@
 		C4E7865E1AE24D32009C98A2 /* SyrahLibraryMobileTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyrahLibraryMobileTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E786631AE24D32009C98A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E786641AE24D32009C98A2 /* SyrahLibraryMobileTest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyrahLibraryMobileTest2Tests.m; sourceTree = "<group>"; };
+		C4E7866E1AE2824D009C98A2 /* regViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = regViewControl.h; path = ../regViewControl.h; sourceTree = "<group>"; };
+		C4E7866F1AE2824D009C98A2 /* regViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = regViewControl.m; path = ../regViewControl.m; sourceTree = "<group>"; };
+		C4E786711AE2A369009C98A2 /* SRDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRDatabase.h; path = SyrahDatabase/SRDatabase.h; sourceTree = "<group>"; };
+		C4E786721AE2A369009C98A2 /* SRDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRDatabase.m; path = SyrahDatabase/SRDatabase.m; sourceTree = "<group>"; };
+		C4E786741AE2AE98009C98A2 /* SyrahBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyrahBook.h; path = /Users/Jerry/Documents/Developing/SyrahLibraryMobileTest2/SyrahLibraryMobileTest2/SyrahDatabase/SyrahBook.h; sourceTree = "<absolute>"; };
+		C4E786751AE2AE98009C98A2 /* SyrahBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyrahBook.m; path = /Users/Jerry/Documents/Developing/SyrahLibraryMobileTest2/SyrahLibraryMobileTest2/SyrahDatabase/SyrahBook.m; sourceTree = "<absolute>"; };
+		C4E786761AE2AE98009C98A2 /* SyrahBorrowCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyrahBorrowCard.h; path = /Users/Jerry/Documents/Developing/SyrahLibraryMobileTest2/SyrahLibraryMobileTest2/SyrahDatabase/SyrahBorrowCard.h; sourceTree = "<absolute>"; };
+		C4E786771AE2AE98009C98A2 /* SyrahBorrowCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyrahBorrowCard.m; path = /Users/Jerry/Documents/Developing/SyrahLibraryMobileTest2/SyrahLibraryMobileTest2/SyrahDatabase/SyrahBorrowCard.m; sourceTree = "<absolute>"; };
+		C4E786781AE2AE98009C98A2 /* SyrahBorrowRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyrahBorrowRecord.h; path = /Users/Jerry/Documents/Developing/SyrahLibraryMobileTest2/SyrahLibraryMobileTest2/SyrahDatabase/SyrahBorrowRecord.h; sourceTree = "<absolute>"; };
+		C4E786791AE2AE98009C98A2 /* SyrahBorrowRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyrahBorrowRecord.m; path = /Users/Jerry/Documents/Developing/SyrahLibraryMobileTest2/SyrahLibraryMobileTest2/SyrahDatabase/SyrahBorrowRecord.m; sourceTree = "<absolute>"; };
+		C4E7867A1AE2AE98009C98A2 /* SyrahManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyrahManagement.h; path = /Users/Jerry/Documents/Developing/SyrahLibraryMobileTest2/SyrahLibraryMobileTest2/SyrahDatabase/SyrahManagement.h; sourceTree = "<absolute>"; };
+		C4E7867B1AE2AE98009C98A2 /* SyrahManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyrahManagement.m; path = SyrahLibraryMobileTest2/SyrahDatabase/SyrahManagement.m; sourceTree = SOURCE_ROOT; };
+		C4E786801AE2B2A1009C98A2 /* InsertBookControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertBookControllerViewController.h; sourceTree = "<group>"; };
+		C4E786811AE2B2A1009C98A2 /* InsertBookControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertBookControllerViewController.m; sourceTree = "<group>"; };
+		C4E786831AE2D0E1009C98A2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C4FAB4611AEF0C4500B6460B /* AdminInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminInfoViewController.h; sourceTree = "<group>"; };
+		C4FAB4621AEF0C4500B6460B /* AdminInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminInfoViewController.m; sourceTree = "<group>"; };
+		C4FAB4641AEF16FC00B6460B /* readerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readerInfoViewController.h; sourceTree = "<group>"; };
+		C4FAB4651AEF16FC00B6460B /* readerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = readerInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E786841AE2D0E1009C98A2 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +123,7 @@
 		C4E7863C1AE24D32009C98A2 = {
 			isa = PBXGroup;
 			children = (
+				C4E786831AE2D0E1009C98A2 /* libsqlite3.dylib */,
 				C4E786471AE24D32009C98A2 /* SyrahLibraryMobileTest2 */,
 				C4E786611AE24D32009C98A2 /* SyrahLibraryMobileTest2Tests */,
 				C4E786461AE24D32009C98A2 /* Products */,
@@ -81,14 +142,52 @@
 		C4E786471AE24D32009C98A2 /* SyrahLibraryMobileTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				C4E786741AE2AE98009C98A2 /* SyrahBook.h */,
+				C4E786751AE2AE98009C98A2 /* SyrahBook.m */,
+				C4E786761AE2AE98009C98A2 /* SyrahBorrowCard.h */,
+				C4E786771AE2AE98009C98A2 /* SyrahBorrowCard.m */,
+				C4E786781AE2AE98009C98A2 /* SyrahBorrowRecord.h */,
+				C4E786791AE2AE98009C98A2 /* SyrahBorrowRecord.m */,
+				C4E7867A1AE2AE98009C98A2 /* SyrahManagement.h */,
+				C4E7867B1AE2AE98009C98A2 /* SyrahManagement.m */,
+				C4E7866E1AE2824D009C98A2 /* regViewControl.h */,
+				C4E7866F1AE2824D009C98A2 /* regViewControl.m */,
 				C4E7864C1AE24D32009C98A2 /* AppDelegate.h */,
 				C4E7864D1AE24D32009C98A2 /* AppDelegate.m */,
 				C4E7864F1AE24D32009C98A2 /* ViewController.h */,
 				C4E786501AE24D32009C98A2 /* ViewController.m */,
 				C4E786521AE24D32009C98A2 /* Main.storyboard */,
+				C4FAB4611AEF0C4500B6460B /* AdminInfoViewController.h */,
+				C4FAB4621AEF0C4500B6460B /* AdminInfoViewController.m */,
+				C402E6C91AEBF37300587D36 /* ShowBorrowRecordForAdminViewController.h */,
+				C402E6CA1AEBF37300587D36 /* ShowBorrowRecordForAdminViewController.m */,
+				C41EA7C81AEABAB700238242 /* ShowRecordForReaderViewController.h */,
+				C41EA7C91AEABAB700238242 /* ShowRecordForReaderViewController.m */,
+				C41EA7BC1AEA6A5E00238242 /* ShowReaderForAdminViewController.h */,
+				C41EA7BD1AEA6A5E00238242 /* ShowReaderForAdminViewController.m */,
+				C42A3C061AE9172600DA652B /* ShowBookForAdminViewController.h */,
+				C42A3C071AE9172600DA652B /* ShowBookForAdminViewController.m */,
+				C4E786801AE2B2A1009C98A2 /* InsertBookControllerViewController.h */,
+				C4E786811AE2B2A1009C98A2 /* InsertBookControllerViewController.m */,
+				C41EA7C51AEAB9F100238242 /* BookBorrowViewController.h */,
+				C41EA7C61AEAB9F100238242 /* BookBorrowViewController.m */,
+				C41EA7BF1AEA74D800238242 /* UserInfoViewController.h */,
+				C41EA7C01AEA74D800238242 /* UserInfoViewController.m */,
+				C42A3C0C1AE9E11700DA652B /* BookInfoViewController.h */,
+				C42A3C0D1AE9E11700DA652B /* BookInfoViewController.m */,
+				C402E6CC1AEBF9E300587D36 /* RecordInfoViewController.h */,
+				C402E6CD1AEBF9E300587D36 /* RecordInfoViewController.m */,
+				C41EA7CB1AEABADA00238242 /* RecordUpdateViewController.h */,
+				C41EA7CC1AEABADA00238242 /* RecordUpdateViewController.m */,
 				C4E786551AE24D32009C98A2 /* Images.xcassets */,
 				C4E786571AE24D32009C98A2 /* LaunchScreen.xib */,
 				C4E786481AE24D32009C98A2 /* Supporting Files */,
+				C4E786711AE2A369009C98A2 /* SRDatabase.h */,
+				C4E786721AE2A369009C98A2 /* SRDatabase.m */,
+				C4FAB4641AEF16FC00B6460B /* readerInfoViewController.h */,
+				C4FAB4651AEF16FC00B6460B /* readerInfoViewController.m */,
+				C41EA7C21AEAB9C200238242 /* ShowBookForReaderViewController.h */,
+				C41EA7C31AEAB9C200238242 /* ShowBookForReaderViewController.m */,
 			);
 			path = SyrahLibraryMobileTest2;
 			sourceTree = "<group>";
@@ -219,9 +318,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41EA7BE1AEA6A5E00238242 /* ShowReaderForAdminViewController.m in Sources */,
 				C4E786511AE24D32009C98A2 /* ViewController.m in Sources */,
+				C41EA7CA1AEABAB700238242 /* ShowRecordForReaderViewController.m in Sources */,
+				C4E786701AE2824D009C98A2 /* regViewControl.m in Sources */,
+				C4E7867D1AE2AE98009C98A2 /* SyrahBorrowCard.m in Sources */,
+				C402E6CB1AEBF37300587D36 /* ShowBorrowRecordForAdminViewController.m in Sources */,
+				C41EA7C41AEAB9C200238242 /* ShowBookForReaderViewController.m in Sources */,
+				C41EA7CD1AEABADA00238242 /* RecordUpdateViewController.m in Sources */,
+				C4E786731AE2A369009C98A2 /* SRDatabase.m in Sources */,
+				C4FAB4631AEF0C4500B6460B /* AdminInfoViewController.m in Sources */,
+				C41EA7C11AEA74D800238242 /* UserInfoViewController.m in Sources */,
+				C4E786821AE2B2A1009C98A2 /* InsertBookControllerViewController.m in Sources */,
 				C4E7864E1AE24D32009C98A2 /* AppDelegate.m in Sources */,
+				C4E7867C1AE2AE98009C98A2 /* SyrahBook.m in Sources */,
+				C41EA7C71AEAB9F100238242 /* BookBorrowViewController.m in Sources */,
+				C42A3C081AE9172600DA652B /* ShowBookForAdminViewController.m in Sources */,
 				C4E7864B1AE24D32009C98A2 /* main.m in Sources */,
+				C4E7867E1AE2AE98009C98A2 /* SyrahBorrowRecord.m in Sources */,
+				C4E7867F1AE2AE98009C98A2 /* SyrahManagement.m in Sources */,
+				C4FAB4661AEF16FC00B6460B /* readerInfoViewController.m in Sources */,
+				C42A3C0E1AE9E11700DA652B /* BookInfoViewController.m in Sources */,
+				C402E6CE1AEBF9E300587D36 /* RecordInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +536,7 @@
 				C4E7866A1AE24D32009C98A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E7866B1AE24D32009C98A2 /* Build configuration list for PBXNativeTarget "SyrahLibraryMobileTest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +545,7 @@
 				C4E7866D1AE24D32009C98A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
