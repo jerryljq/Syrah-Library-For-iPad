@@ -106,7 +106,7 @@
     [[NSNotificationCenter defaultCenter] postNotification:userinfo];
     
     
-    NSLog(@"you selected section %d row %d",indexPath.section,indexPath.row);
+    NSLog(@"you selected section %ld row %ld",(long)indexPath.section,(long)indexPath.row);
     //  NSLog([[self.dataArray objectAtIndex:indexPath.row] getBookID]);
 }
 
