@@ -6,7 +6,7 @@ A library management tool written for iOS platform.
 **Database:** [Sqlite](https://sqlite.org/cli.html).
 
 ## Features
-The program is based on MVC structure and there is designed for 3 different user groups:
+The program is based on MVC structure and it is designed for 3 different user groups:
 
 **Librarian:** Librarians can view, search and manage all the books.
 
