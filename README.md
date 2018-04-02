@@ -1,6 +1,6 @@
 # Syrah-Library-For-iPad
 
-This is library management application on iOS platform. 
+This is a library management application on iOS platform. 
 
 The program is based on MVC structure and contains two controllers for admins and clients. 
 
