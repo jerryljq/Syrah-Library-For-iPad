@@ -1,7 +1,7 @@
 # Syrah-Library-For-iPad
 
-This is a library management applicaiton in iOS version. 
+This is a library management application on iOS platform. 
 
-The program is based on MVC structure and it contains two controllers for admins and clients. 
+The program is based on MVC structure and contains two controllers for admins and clients. 
 
-To try this demo, please clone/download the repo and import this project in Xcode. 
+Please clone/download the repo and import this project in Xcode to demo.
